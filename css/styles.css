@@ -1,0 +1,184 @@
+
+/* tindog */
+
+
+/* fonts
+font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+body {
+font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: 600;
+  font-size:1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+/* Nav Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.fld {
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+font-family: 'Ubuntu', sans-serif;
+font-size:2.5rem;
+font-weight: bold;
+}
+
+.nav-item {
+  padding:0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+
+
+/* Title Img */
+.phone {
+  width: 40%;
+  height: 60%;
+  position: absolute;
+  right: 10%;
+  top: 30%;
+  border-radius: 100%;
+}
+
+/* Features */
+
+
+#features {
+  padding: 7% 7%;
+  text-align: center;
+  background-color: white;
+  z-index: 1;
+  position: relative;
+}
+
+
+
+.feature-awe {
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+
+.feature-awe:hover {
+  color: #ff4c68;
+}
+
+
+/* Testimonials */
+
+#testimonials {
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.test-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press Section */
+
+
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price {
+  padding: 3% 2%;
+}
+
+
+/* Media Query */
+
+@media (max-width: 1028px) {
+
+#title {
+  text-align: center;
+}
+
+  .phone {
+    position: static;
+    height:100%;
+    width: 100%;
+  }
+}
+
+/* CTA */
+
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.cta-header {
+  font-weight: 600;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding: 1rem 0;
+}
+
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  background-color: #fff;
+  padding: 7% 15%;
+}
+
+.footer-social {
+  margin: 20px 10px;
+}
